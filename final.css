@@ -3,8 +3,6 @@
     width: 1200px;
     margin: 0 auto;
     background-color: #ececec;
-    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2),
-        0 25px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .column {
     width: 50%;
@@ -16,7 +14,7 @@
     margin-left: 2rem;
     margin-top: 3px;
 }
-.trending {
+p.trending {
     font-family: sans-serif;
     color: black;
     margin-left: 2rem;
@@ -47,21 +45,28 @@ p {
     padding: 0;
 }
 .list li {
-    padding: 5px;
+    border: 2.1px solid lightgray;
     margin-left: 2rem;
     margin-right: 0;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
     background-color: white;
     font-size: 12pt;
+    background-image: url("cube.png");
+    background-repeat: no-repeat;
+    background-position: 1.3rem 1.5rem;
 }
 .list2 li {
+    border: 2.1px solid lightgray;
     padding: 5px;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
     background-color: white;
+    background-image: url("cube.png");
+    background-repeat: no-repeat;
+    background-position: 1.3rem 1.5rem;
 }
 
 .list li {
@@ -86,4 +91,8 @@ li.column2-list-overload {
     padding-top: 5px;
     padding-left: 80px;
     padding-bottom: 5px;
+}
+img.cube-image {
+    width: 34px;
+    height: 34px;
 }
